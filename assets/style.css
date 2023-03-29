@@ -1,0 +1,16 @@
+*{
+    background-color:rgb(216, 238, 240);
+}
+
+.headlinks{
+    list-style: none;
+    color: white;
+    background-color: navy;
+}
+
+header h1{
+    background-color: navy;
+    color: white;
+
+}
+  
