@@ -1,16 +1,72 @@
 *{
-    background-color:rgb(216, 238, 240);
-}
-
-.headlinks{
-    list-style: none;
-    color: white;
-    background-color: navy;
-}
-
-header h1{
-    background-color: navy;
-    color: white;
-
-}
-  
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(222, 223, 222);
+    margin: 0;
+ }
+ .topstuff{
+     display: flex;
+     flex-direction: row;
+     border: 20px solid rgb(0, 48, 102);
+     background-color:rgb(0, 48, 102);
+     margin: 0 auto;
+    justify-content: space-between;
+    
+ 
+ }
+ .headlinks{
+     display: flex;
+     justify-content: flex-end;
+     color: rgb(142, 219, 213);
+     border: 10px solid rgb(0, 48, 102);
+     background-color:rgb(0, 48, 102);
+     font-size: 20px;
+     font-weight: bolder;
+    
+ }
+ 
+ .myname{
+     background-color: rgb(142, 219, 213);
+     color: rgb(0, 48, 102);
+     font-size: 40px;
+     display: flex;
+     flex-direction: row-reverse;
+     font-weight: bolder;
+     width:360px;
+     height: 80px;
+     align-items: center;
+     text-align: end;
+ }
+ 
+ .subheadbanner{
+     border: 85px solid antiquewhite;
+     margin: 0 auto;
+     text-align: end;
+     background-color: antiquewhite;
+ 
+ }
+ 
+ .subheadbanner .coolsub{
+     position: relative; top: 85px; left: 774px;
+     font-weight: bold;
+     color: rgb(0, 48, 102);
+     background-color: rgb(142, 219, 213);
+     border: 26px solid rgb(142, 219, 213);
+     width: 530px;
+    
+ }
+ 
+ 
+ 
+ 
+ .aboutwords{
+     color: rgb(0, 48, 102);
+     display: flex;
+     font-weight:540;
+ 
+ }
+ .abouttitle{
+     color: rgb(0, 48, 102);
+     font-size: 40px;
+     font-weight: bolder;
+     display: flex;
+ }
