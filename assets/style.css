@@ -55,18 +55,34 @@
     
  }
  
+ .aboutmeinfo{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+ }
  
  
- 
+
+
+
+
  .aboutwords{
      color: rgb(0, 48, 102);
      display: flex;
      font-weight:540;
+     align-items: center;
+     padding: 10px;
+     border-left: 2px solid rgb(0, 48, 102);
  
  }
  .abouttitle{
      color: rgb(0, 48, 102);
+     padding: 15px;
      font-size: 40px;
      font-weight: bolder;
      display: flex;
+     width: 500px;
+     justify-content: flex-end;
+     margin: 0px;
  }
