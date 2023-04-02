@@ -88,9 +88,111 @@
  }
 
 
+.bigprojects{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+ .work{
+    color: rgb(0, 48, 102);
+     padding: 15px;
+     font-size: 40px;
+     font-weight: bolder;
+     display: flex;
+     width: 200px;
+     justify-content: flex-end;
+     margin: 0px;
+     border-right: 2px solid rgb(0, 48, 102);
+ }
+
+ .bigproject{
+    background-image: url('images/surf.jpg');
+    background-size: 100% 100%;
+    width: 1200px;
+    height: 600px;
+    border: 4px solid rgb(142, 219, 213);
+    margin-left: 20px;
+    margin-bottom: 0;
+
+ }
+
+.smallprojects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 225px;
+    margin-top: 0;
+    border-left: 2px solid rgb(0, 48, 102);
+}
+
+ .ledwall{
+     background-image: url('images/ledwall.jpg');
+     background-size: 100% 100%;
+     width:500px;
+     height:200px;
+     border: 4px solid rgb(142, 219, 213);
+     padding: 10px;
+     margin: 5px;
+ }
+ 
+ .calculator{
+     background-image: url('images/calculator.jpg');
+     background-size: 100% 100%;
+     width:500px;
+     height:200px;
+     border: 4px solid rgb(142, 219, 213);
+     padding: 10px;
+     margin: 5px;
+ }
+
+ .pastelpuzzle{
+     background-image: url('images/pastel.jpg');
+     background-size: 100% 100%;
+     width:500px;
+     height:200px;
+     border: 4px solid rgb(142, 219, 213);
+     padding: 10px;
+     margin: 5px;
+ }
+ 
+ .runbuddy{
+    background-image: url('images/runbuddy.jpg');
+    background-size: 100% 100%;
+    width:500px;
+    height:200px;
+    border: 4px solid rgb(142, 219, 213);
+    padding: 10px;
+    margin: 5px;
+ }
+ 
+ 
+ 
+ 
+ 
 
 
 
+ .bigproject .bigptext{
+    background-color: rgb(142, 219, 213);
+    font-weight: bold;
+    font-size: 30px;
+ }
+ .bigptext2{
+    background-color: rgb(142, 219, 213);
+    font-size: 18px;
+ }
+
+ .smallptext{
+    background-color: rgb(142, 219, 213);
+    font-weight: bold;
+    font-size: 30px;
+}
+.smallptext2{
+    background-color: rgb(142, 219, 213);
+    font-size: 16px;
+}
 
 
 
@@ -111,11 +213,11 @@
 .contactme{
     display: flex;
     padding: 15px;
-     font-size: 40px;
-     font-weight: bolder;
-     width: 216px;
-     align-content: center;
-     justify-content: flex-end;
+    font-size: 40px;
+    font-weight: bolder;
+    width: 216px;
+    align-content: center;
+    justify-content: flex-end;
 
 }
 
@@ -133,8 +235,8 @@
     flex-direction: row;
     align-content: center;
     align-items: center;
-    padding: 5px;
-    justify-content: space-between;
+    padding: 50px;
+    justify-content: space-evenly;
     margin: 5px;
 
 }
