@@ -10,10 +10,10 @@
 <header class ="topstuff">
     <div class ="myname">Joshua Wong</div>
     <nav class = "headlinks">
-        <div class = "headlinks">About Me</div>
-        <div class = "headlinks">Work</div>
-        <div class = "headlinks">Contact Me</div>
-        <div class = "headlinks">Resume</div>
+        <a href="#aboutmelink"><div class = "headlinks">About Me</div></a>
+        <a href="#worklink"><div class = "headlinks">Work</div></a>
+        <a href="#contactmelink"><div class = "headlinks">Contact Me</div></a>
+        <a href="https://google.com"><div class = "headlinks">Resume</div></a>
     </nav>
 </header>
 
@@ -23,20 +23,19 @@
 
 
 <body>
-    <section class ="aboutmeinfo">
+    <a id="aboutmelink"><section class ="aboutmeinfo">
         <div class ="abouttitle">About Me</div>
         <p class ="aboutwords">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor et, eum harum alias ipsam qui impedit similique sequi eos nihil deleniti consequatur enim. Ut possimus voluptatibus esse eius officiis. Laboriosam. <br> <br> The rain and wind abruptly stopped, but the sky still had the gray swirls of storms in the distance. Dave knew this feeling all too well. The calm before the storm. He only had a limited amount of time before all Hell broke loose, but he stopped to admire the calmness. Maybe it would be different this time, he thought, with the knowledge deep within that it wouldn't.</p>
-    </section>  
+    </section></a>
     <br><br>
 
     <section class = "bigprojects">
-        <div class ="work">Work</div>
+    <a id="worklink"><div class ="work">Work</div></a>
         <div class="bigproject">
             <div class="bigptext">Surf Report <br><div class = "bigptext2">MERN Stack</div></div>
         </div>
     </section>
-    <br>
-    <div class ="smallprojects">
+    <section class ="smallprojects">
         <div class="ledwall">
             <div class = "smallptext">LED Wall <br><div class ="smallptext2">Node/IoT</div></div>
         </div>
@@ -49,12 +48,12 @@
         <div class="runbuddy">
             <div class = "smallptext">Run Buddy<br><div class ="smallptext2">html/CSS</div></div>
         </div>
-    </div>
+    </section>
 </body>
 <br>
 <br>
 <footer class="footer">
-    <div class="contactme">Contact Me</div>
+    <a id="contactmelink"><div class="contactme">Contact Me</div></a>
     <a class="footerlinks1">555-555-5555</a>
     <a class="footerlinks" href=https://google.com/>joshuawongthedev@website.com</a>
     <a class="footerlinks" href=https://google.com/>Github</a>
@@ -66,3 +65,4 @@
 </main>
 
 </html>
+
