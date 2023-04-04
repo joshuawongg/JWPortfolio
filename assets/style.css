@@ -118,6 +118,10 @@
     margin-bottom: 0;
 
  }
+ .bigproject:hover{
+    filter: blur(0);
+    border: blanchedalmond; box-shadow: 0 0 12px #333;
+}
 
 .smallprojects{
     display: flex;
@@ -128,6 +132,7 @@
     border-left: 2px solid rgb(0, 48, 102);
 }
 
+
  .ledwall{
      background-image: url('images/ledwall.jpg');
      background-size: 100% 100%;
@@ -136,6 +141,10 @@
      border: 4px solid rgb(142, 219, 213);
      padding: 10px;
      margin: 5px;
+ }
+ .ledwall:hover{
+     filter: blur(0);
+     border: blanchedalmond; box-shadow: 0 0 12px #333;
  }
  
  .calculator{
@@ -147,6 +156,10 @@
      padding: 10px;
      margin: 5px;
  }
+ .calculator:hover{
+    filter: blur(0);
+    border: blanchedalmond; box-shadow: 0 0 12px #333;
+}
 
  .pastelpuzzle{
      background-image: url('images/pastel.jpg');
@@ -157,6 +170,10 @@
      padding: 10px;
      margin: 5px;
  }
+ .pastelpuzzle:hover{
+    filter: blur(0);
+    border: blanchedalmond; box-shadow: 0 0 12px #333;
+}
  
  .runbuddy{
     background-image: url('images/runbuddy.jpg');
@@ -168,7 +185,10 @@
     margin: 5px;
  }
  
- 
+ .runbuddy:hover{
+    filter: blur(0);
+    border: blanchedalmond; box-shadow: 0 0 12px #333;
+}
  
  
  
