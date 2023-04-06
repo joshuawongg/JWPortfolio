@@ -83,7 +83,7 @@
      font-size: 40px;
      font-weight: bolder;
      display: flex;
-     width: 600px;
+     width: 1200px;
      justify-content: flex-end;
      margin: 0px;
  }
@@ -127,7 +127,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-left: 225px;
+    margin-left: 246px;
     margin-top: 0;
     border-left: 2px solid rgb(0, 48, 102);
 }
